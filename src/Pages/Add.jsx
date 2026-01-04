@@ -23,8 +23,8 @@ export default function Form() {
             toast.success(res.data.message)
            }
            navigate("/")
+           console.log(error)
         } catch (error) {
-            toast.error(res.data.message)
             console.log(error)
             
         }

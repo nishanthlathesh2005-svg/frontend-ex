@@ -11,7 +11,7 @@ import { Button } from '@mui/material';
 import { idID } from '@mui/material/locale';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { host } from './api';q
+import { host } from './api';
 
 
 export default function BasicTable({fetchData}) {
